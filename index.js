@@ -28,4 +28,10 @@ noteSection.addEventListener('click',function(e){
 }
 )
 
- 
+
+document.addEventListener('keypress',event=>{
+   if(event.key==="Enter"){
+      document.execCommand("insertLineBreak")
+      event.preventDefault()
+   }
+})
