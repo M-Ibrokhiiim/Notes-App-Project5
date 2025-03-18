@@ -48,7 +48,7 @@ main{
     color: white;
 }
 
-button{
+.noteAddBtn{
 width: 30vh;
 height: 3vw;
 font-family: sans-serif;
@@ -68,18 +68,18 @@ outline: none;
 border: 2px solid white;
 }
 
-button>i{
+.noteAddBtn>i{
     padding: 10px;
     font-size: 3vh;
 }
-button>p{
+.noteAddBtn>p{
     font-size: 0.9vw;
 }
 
-button:hover{
+.noteAddBtn:hover{
     background: linear-gradient(45deg,#AB9EAF,#9c99c9);
 }
-button:active{
+.noteAddBtn:active{
     background: linear-gradient(45deg,#AB9EAF,#ABA6E9);
     cursor: progress;
 }
@@ -91,27 +91,33 @@ button:active{
     margin-top: 5vw;
     text-align: left;
     align-items: center;
+    /* background-color: aqua; */
 
 }
 
-.notes-section>div{
-    display: inline;
-    margin-right: 1px;
-    margin-top: 25px;
+.notes-section-childDiv{
+    width: 30%;
+    height: 200px;
 }
 
-textarea{
+.inputText{
     width: 45%;
-    display: inline;
-    height: 100px;
-    outline: none;
-    border: none;
+    background-color: #9c99c9;
+    min-height: 100px;
+    max-height: 400px;
     text-align: left;
     padding: 20px;
-    direction: ltr; 
-    border-bottom-left-radius: 20px;
-    border-top-right-radius: 20px;
-    position: absolute;
+    align-items: center;
+    position: relative;
+    outline: none;
+   
 }
-
+.deleteBtn{
+    width: 25px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+ 
  
