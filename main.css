@@ -98,22 +98,26 @@ border: 2px solid white;
 .notes-section-childDiv{
     width: 30%;
     height: 200px;
+    background-color: azure;
 }
 
 .inputText{
     width: 45%;
-    background-color: #9c99c9;
+    background-color: #f5f5f7;
     min-height: 100px;
     max-height: 400px;
     text-align: left;
-    padding: 20px;
+    padding: 50px;
     align-items: center;
     position: relative;
     outline: none;
+    border-radius: 112px;
+    border-bottom-right-radius: 0;
+    font-family: cursive;
    
 }
 .deleteBtn{
-    width: 25px;
+    width: 35px;
     position: absolute;
     bottom: 15px;
     right: 15px;
