@@ -1,16 +1,17 @@
 let noteSection=document.getElementById('notes-sectionId')
- 
 
 // Function for create note on UI
 
 function addNoteArea(){
    let noteContainer=document.createElement('div')
-   noteContainer.classList.add()
-   let notePlace=document.createElement('p')
    noteContainer.style.display='inline'
+   noteContainer.style.display='inline'
+
+   let notePlace=document.createElement('p')
+   notePlace.textContent="Message:"
    notePlace.setAttribute('contenteditable','true')
    notePlace.classList.add('inputText')
-   
+
    let img=document.createElement('img')
    img.src="src/pics/deleteIcon.jpg"
    img.classList.add('deleteBtn')

@@ -12,7 +12,7 @@ body{
 }
 
 main{
-    /* background-color: azure; */
+     
     margin: 0 auto;
     text-align: center;
     width: 70%;
@@ -26,8 +26,7 @@ main{
     text-align: center;
     margin: 0 auto;
     text-align: left;
-    /* background-color: #928694; */
-}
+ }
 
 
 .notes-creator-section-title{
@@ -85,24 +84,22 @@ border: 2px solid white;
 }
 
 
-/* This is during of work */
 .notes-section{
+    margin-left: -30px;
     width: 100%;
     margin-top: 5vw;
     text-align: left;
     align-items: center;
-    /* background-color: aqua; */
-
+ 
 }
 
 .notes-section-childDiv{
     width: 30%;
     height: 200px;
-    background-color: azure;
-}
+ }
 
 .inputText{
-    width: 45%;
+    width: 65%;
     background-color: #f5f5f7;
     min-height: 100px;
     max-height: 400px;
