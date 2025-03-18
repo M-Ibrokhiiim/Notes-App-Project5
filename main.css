@@ -7,7 +7,7 @@
 body{
     width: 99%;
     height: 100%;
-    background-color: rgba(188, 62, 188, 0.576)
+    background-color: rgba(197, 122, 197, 0.639)
 }
 
 main{
@@ -37,6 +37,7 @@ main{
 
 .notes-creator-section-title>img{
     width: 30%;
+    
 }
 .notes-creator-section-title>p{
     font-size: 3.5vw;
@@ -82,6 +83,30 @@ button:active{
 
 /* This is during of work */
 .notes-section{
+    width: 100%;
     background-color: aquamarine;
     margin-top: 5vw;
+    text-align: left;
+    align-items: center;
+
+}
+
+.notes-section>div{
+    display: inline;
+    margin-right: 1px;
+    margin-top: 25px;
+}
+
+textarea{
+    width: 45%;
+    display: inline;
+    height: 100px;
+    outline: none;
+    border: none;
+    text-align: left;
+    padding: 20px;
+    direction: ltr; 
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+
 }
