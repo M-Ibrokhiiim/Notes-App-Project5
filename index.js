@@ -1,6 +1,8 @@
 let noteSection=document.getElementById('notes-sectionId')
  
 
+// Function for create note on UI
+
 function addNoteArea(){
    let noteContainer=document.createElement('div')
    noteContainer.classList.add()
@@ -20,7 +22,7 @@ function addNoteArea(){
  
 
 
-
+// Function for delete note from UI
 noteSection.addEventListener('click',function(e){
    if(e.target.tagName==='IMG'){
       e.target.parentElement.remove()
@@ -28,7 +30,7 @@ noteSection.addEventListener('click',function(e){
 }
 )
 
-
+// Function for add ENTER in note
 document.addEventListener('keypress',event=>{
    if(event.key==="Enter"){
       document.execCommand("insertLineBreak")
